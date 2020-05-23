@@ -8,7 +8,7 @@ You can certainly use this on top on your existing project that requires the nee
 
 In case you are trying to use this on your existing project. Please follow the guide below.
 
-1. Run in your preferred directory `git clone https://github.com/ericz99/captcha-harvester` && `cd captcha-harvester`.
+1. Run in your preferred directory `git clone https://github.com/ericz99/captcha-harvester && cd captcha-harvester`.
 2. Next, run yarn install.
 3. In the `./config` folder, feel free to add any other site you wish to harvest for.
 4. If you are running on MACOS/LINUX, please run `bash add-host.sh`, and feel free to add additional website you wished to harvest in `./add-host.sh` on line 8. If not, then please run `yarn run add-host` if you're on windows.
@@ -27,6 +27,24 @@ module.exports = {
   serverPort: process.env.PORT || 8080,
 };
 ```
+
+## How to use?
+
+After starting the harvester, it should automatically open the harvester via browser.
+
+You can now start harvesting captcha, and to get the actual response token, there is an endpoint below
+to harvest the token. By default, all the token is being stored via array. To persist these token, you must
+use a database. But, if you just want the token for one time usage, then just make some modification in the
+`/submit` api.
+
+#### /submit
+
+- `POST` : Automatically upload response token
+
+## Todo
+
+- [ ] Autoclick Toggle ON/OFF
+- [ ] Multiple Harvester
 
 ## App Info
 
