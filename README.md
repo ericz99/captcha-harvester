@@ -1,6 +1,6 @@
 ## Captcha Harvester
 
-Pre harvest captcha token from any website that requires `recaptcha v2`. You are capable of creating multiple harvester. Everything + including the harvester itself is running locally on an express server.
+Pre harvest captcha token from any website that requires `recaptcha v2`. Everything is ran locally on an express server.
 
 You can certainly use this on top on your existing project that requires the needs of captcha token. Please follow the guide below!
 
@@ -40,11 +40,6 @@ use a database (each token is only valid for two minutes). But, if you just want
 #### /submit
 
 - `POST` : Automatically upload response token
-
-## Todo
-
-- [ ] Autoclick Toggle ON/OFF
-- [ ] Multiple Harvester
 
 ## App Info
 
