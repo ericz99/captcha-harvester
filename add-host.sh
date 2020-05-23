@@ -15,7 +15,7 @@ for i in "${host_data[@]}"; do
             echo "$i already exist! :$(grep $i $win_os)"
         else
             echo "Adding $i to your $win_os!"
-            echo 127.0.0.1 $i >> '%WinDir%\system32\drivers\etc\hosts'
+            echo 127.0.0.1 $i >> $win_os
         fi
     elif [[ "$OSTYPE" == "darwin"* ]]; then
         if [ -n "$(grep $i $mac_os)" ]; then
