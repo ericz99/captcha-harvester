@@ -34,7 +34,7 @@ After starting the harvester, it should automatically open the harvester via bro
 
 You can now start harvesting captcha, and to get the actual response token, there is an endpoint below
 to harvest the token. By default, all the token is being stored via array. To persist these token, you must
-use a database. But, if you just want the token for one time usage, then just make some modification in the
+use a database (each token is only valid for two minutes). But, if you just want the token for one time usage, then just make some modification in the
 `/submit` api.
 
 #### /submit
