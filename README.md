@@ -43,7 +43,7 @@ use a database (each token is only valid for two minutes). But, if you just want
 
 ## Pictures
 
-[!captcha](https://i.imgur.com/E2yNcRJ.png)
+![captcha](https://i.imgur.com/E2yNcRJ.png)
 
 ## App Info
 
