@@ -45,6 +45,14 @@
             <br />
           </form>
         </div>
+        <div class="token-container">
+          <ul class="list-group">
+            <% harvested.forEach(function(token) { %>
+            <li class="list-item"><%= token %></li>
+            <br />
+            <% }); %>
+          </ul>
+        </div>
       </div>
     </div>
 

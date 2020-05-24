@@ -41,6 +41,10 @@ use a database (each token is only valid for two minutes). But, if you just want
 
 - `POST` : Automatically upload response token
 
+## Pictures
+
+[!captcha](https://i.imgur.com/E2yNcRJ.png)
+
 ## App Info
 
 ### Author
